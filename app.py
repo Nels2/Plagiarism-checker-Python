@@ -1,3 +1,5 @@
+# use in conjunction with the quillbot website to compare regular text to paraphrased.
+
 import os
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
